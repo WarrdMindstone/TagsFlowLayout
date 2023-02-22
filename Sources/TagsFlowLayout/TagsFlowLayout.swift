@@ -37,7 +37,7 @@ public class TagsFlowLayout: UICollectionViewFlowLayout {
     
     //MARK: - Init Methods
     
-    required init(alignment: LayoutAlignment = .left, minimumInteritemSpacing: CGFloat = 0, minimumLineSpacing: CGFloat = 0, sectionInset: UIEdgeInsets = .zero) {
+    public required init(alignment: LayoutAlignment = .left, minimumInteritemSpacing: CGFloat = 0, minimumLineSpacing: CGFloat = 0, sectionInset: UIEdgeInsets = .zero) {
         self.alignment = alignment
         super.init()
         
